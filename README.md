@@ -37,7 +37,7 @@ Before getting started, make sure you have a proper Zephyr development environme
 Clone the repository to a folder of your liking:
 
 ```shell
-clone <url> workspace-name
+git clone https://github.com/borrelunde/zephyr-manifest-workspace-application.git workspace-name
 ```
 
 Enter the workspace and update Zephyr modules:
