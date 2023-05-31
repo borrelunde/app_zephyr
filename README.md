@@ -57,17 +57,17 @@ This should take a while.
 
 Open Command Prompt inside the workspace directory.
 
-Activate the West virtual environment. Change the path if yours is different:
+If not already activated, activate the West virtual environment. Change the path if yours is different:
 
 ```shell
 # Windows (default installation)
 %USERPROFILE%\zephyrproject\.venv\Scripts\activate.bat
 ```
 
-Build for your board, here I build a pristine build for the `nRF52840 Development Kit`. Any supported board can be used instead:
+Build the application. On the initial build, you must specify what board to build for. I build for the board `nRF52840 Development Kit`. Any supported board can be used instead:
 
 ```shell
-west build -p always -b nrf52840dk_nrf52840 application
+west build -b nrf52840dk_nrf52840 application
 ```
 
 Once you have built the application, flash it to the board:
