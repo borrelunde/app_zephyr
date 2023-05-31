@@ -51,6 +51,8 @@ cd workspace-name
 west update
 ```
 
+This should take a while.
+
 ## Building and Running
 
 Open Command Prompt inside the workspace directory.
