@@ -40,10 +40,14 @@ Clone the repository to a folder of your liking:
 git clone https://github.com/borrelunde/zephyr-manifest-workspace-application.git workspace-name
 ```
 
-Enter the workspace and update Zephyr modules:
+Enter the workspace, activate the West virtual environment and update Zephyr modules:
 
 ```shell
 cd workspace-name
+
+# Windows (default installation)
+%USERPROFILE%\zephyrproject\.venv\Scripts\activate.bat
+
 west update
 ```
 
